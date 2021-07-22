@@ -1,7 +1,7 @@
 {
-  "name": "api_datapp",
+  "name": "api",
   "version": "1.0.0",
-  "description": "Proyecto api rest para los servicios del front",
+  "description": "api para proyecto en react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,18 +9,20 @@
     "dev": "nodemon index.js --exec babel-node"
   },
   "keywords": [
-    "mongoose",
-    "express",
     "cors",
-    "nodemon."
+    "babel",
+    "express",
+    "mongoose",
+    "nodemon"
   ],
   "author": "Leonel Aguilar",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-promise-router": "^4.1.0",
-    "mongoose": "^5.13.2"
+    "mongoose": "^5.13.3"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
